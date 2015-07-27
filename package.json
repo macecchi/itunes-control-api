@@ -1,0 +1,40 @@
+{
+  "name": "itunes-control-api",
+  "version": "1.0.0",
+  "description": "iTunes playback REST API using Node.js",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.1",
+    "local-itunes": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://macecchi@github.com/macecchi/itunes-control-api.git"
+  },
+  "keywords": [
+    "itunes",
+    "api",
+    "itunes",
+    "os",
+    "x",
+    "mac",
+    "itunes",
+    "rest",
+    "rest",
+    "api",
+    "itunes",
+    "node",
+    "itunes",
+    "control"
+  ],
+  "author": "Mario Cecchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macecchi/itunes-control-api/issues"
+  },
+  "homepage": "https://github.com/macecchi/itunes-control-api#readme"
+}

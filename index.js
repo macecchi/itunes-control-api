@@ -45,5 +45,10 @@ app.get('/next', function(req, res){
 	res.end();
 });
 
-var server = app.listen(8080);
-console.log('iTunes Control API started on port %s', server.address().port);
+module.exports = {
+	start: function(port) {
+		var server = app.listen(port);
+		console.log('iTunes Control API started on port %s', port);
+		return server;
+	}
+};
